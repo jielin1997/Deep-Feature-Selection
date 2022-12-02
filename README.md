@@ -12,15 +12,14 @@ The repository of paper "Deep Feature Selection for Anomaly Detection Based on P
 1. MVTec AD：来自https://www.mvtec.com/company/research/datasets/mvtec-ad/
 2. Bearing Data来自：https://engineering.case.edu/bearingdatacenter/welcome
 
-# 运行示例
-## 复现类激活图
+# 复现示例
+### 类激活图
 在ubuntu系统的终端激活所需环境后，进入cam所在文件夹，输入运行get_img_cam文件
 ```
 conda acntivate gaussian
 cd <your cam folder path>
 python -m get_img_cam
 ```
-## 复现文献中的AUROC数据：
 ### 单类测试
 进入gaussian文件夹，打开ubuntu终端，输入：
   ```
@@ -35,9 +34,9 @@ python -m get_img_cam
   cd <your gaussian folder path>
   python -m src.scripts.my_table1 --gpu --logpath <your log path>
   ```
-## 查看cam图
+### 查看cam图
 将‘get_img_cam’文件输出的结果，复制到‘show_cam_images/cam_images’文件下，运行‘show_cam_images.m’文件
-## 将Bearing Data转换成图片
+### 将Bearing Data转换成图片
 将Bearing Data下载的mat文件移动至‘Bearing_data_generator’文件夹下，运行‘preproc_data_lj.m’文件
 
 # License
