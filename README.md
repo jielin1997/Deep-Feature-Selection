@@ -35,3 +35,7 @@ python -m get_img_cam
   cd <your gaussian folder path>
   python -m src.scripts.my_table1 --gpu --logpath <your log path>
   ```
+## 查看cam图
+将‘get_img_cam’文件输出的结果，复制到‘show_cam_images/cam_images’文件下，运行‘show_cam_images.m’文件
+## 将Bearing Data转换成图片
+将Bearing Data下载的mat文件移动至‘Bearing_data_generator’文件夹下，运行‘preproc_data_lj.m’文件
