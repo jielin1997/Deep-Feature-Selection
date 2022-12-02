@@ -40,11 +40,10 @@ python -m get_img_cam
 将Bearing Data下载的mat文件移动至‘Bearing_data_generator’文件夹下，运行‘preproc_data_lj.m’文件
 
 # License
-Copyright (C) 2022 by Xiamen University
-
-https://www.xmu.edu.cn/
+Copyright (C) 2022 by Xiamen University(https://www.xmu.edu.cn/)
 
 License:
 
 This software is dual-licensed under:
+
 • AGPL (GNU Affero General Public License) open source license
