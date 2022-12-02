@@ -43,7 +43,5 @@ python -m get_img_cam
 Copyright (C) 2022 by Xiamen University(https://www.xmu.edu.cn/)
 
 License:
-
 This software is dual-licensed under:
-
 • AGPL (GNU Affero General Public License) open source license
