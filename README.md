@@ -13,20 +13,20 @@ The repository of paper "Deep Feature Selection for Anomaly Detection Based on P
 2. Bearing Data来自：https://engineering.case.edu/bearingdatacenter/welcome
 
 # 运行示例
-1. 复现类激活图：在ubuntu系统的终端激活所需环境后，进入cam所在文件夹，输入运行get_img_cam文件
+## 复现类激活图：在ubuntu系统的终端激活所需环境后，进入cam所在文件夹，输入运行get_img_cam文件
 ```
 conda acntivate gaussian
 cd <your cam folder path>
 python -m get_img_cam
 ```
-2. 复现文献中的AUROC数据：
-  1) 单类测试：进入gaussian文件夹，打开ubuntu终端，输入：
+## 复现文献中的AUROC数据：
+### 单类测试：进入gaussian文件夹，打开ubuntu终端，输入：
   ```
   conda acntivate gaussian
   cd gaussian
   python -m src.common.trainer --model gaussian --category bottle --arch efficientnet-b4 --extract_blocks 0 1 2 3 4 5 6 7 8 --max_nb_epochs 0 --gpus 0 --npca --variance_threshold 0.99 --select_space 2_3
   ```
-  2) 数据集测试：进入gaussian文件夹，打开ubuntu终端，输入：
+### 数据集测试：进入gaussian文件夹，打开ubuntu终端，输入：
   ```
   conda activate gaussian
   cd <your gaussian folder path>
